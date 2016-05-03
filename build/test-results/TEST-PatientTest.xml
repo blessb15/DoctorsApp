@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PatientTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-05-03T20:58:15" hostname="epicodus-58.local" time="0.073">
+<testsuite name="PatientTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-05-03T21:04:34" hostname="epicodus-58.local" time="0.032">
   <properties/>
-  <testcase name="patientsAreTheSame" classname="PatientTest" time="0.01"/>
+  <testcase name="patientsAreTheSame" classname="PatientTest" time="0.005"/>
   <testcase name="Patient_checkInstantiatesCorrectly_BobFlu" classname="PatientTest" time="0.005"/>
   <testcase name="getName_taskInstantiatesWithName_String" classname="PatientTest" time="0.004"/>
-  <testcase name="save_assignsIdToObject" classname="PatientTest" time="0.053"/>
+  <testcase name="save_assignsIdToObject" classname="PatientTest" time="0.016"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

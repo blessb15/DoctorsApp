@@ -35,4 +35,12 @@ public class DoctorTest {
     Doctor newDoc = new Doctor("Bill", "Foots");
     assertEquals("Bill", newDoc.getName());
   }
+
+  @Test
+  public void save_assignsIdToObject() {
+    Doctor myDoctor = new Doctor("Bill", "Elbow");
+    myDoctor.save();
+    Doctor savedDoctor = Doctor.all().get(0);
+    assertEquals(myDoctor.getId(), savedDoctor.getId());
+  }
 }
