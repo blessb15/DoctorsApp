@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DoctorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-05-03T18:36:41" hostname="epicodus-58.local" time="0.001">
+<testsuite name="DoctorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-05-03T20:58:15" hostname="epicodus-58.local" time="0.099">
   <properties/>
-  <testcase name="Doctor_objectInstantiatesCorrectly_BillKnees" classname="DoctorTest" time="0.001"/>
-  <testcase name="doctorsAreTheSame" classname="DoctorTest" time="0.0"/>
+  <testcase name="Doctor_objectInstantiatesCorrectly_BillKnees" classname="DoctorTest" time="0.089"/>
+  <testcase name="getName_taskInstantiatesWithName_String" classname="DoctorTest" time="0.005"/>
+  <testcase name="doctorsAreTheSame" classname="DoctorTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
